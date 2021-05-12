@@ -1,19 +1,17 @@
 *{
     font-family: 'Rubik', sans-serif;
     }
-    *.icon-white {color: white}
 
   .page{
     
     margin-left: 211px;
 
-
-  }
+   }
  .header{
     display:flex;
     justify-content:space-between;
     align-items:center;
-    margin:0 120px;
+    margin:0 20px;
   }
 
    .header-left>h1{
@@ -28,11 +26,31 @@
   color: black;
   text-decoration: none;
   margin-left:32px;
+
 }
-.heading {
+.heading>h2{
   color: #120644;
-  font-size:80px;
-  text-align: left;
+  font-weight: 500px;
+  font-style: normal;
+    font-size: 80px;
+    width: 213px;
+    height:190px;
+    line-height: 94.8px;
+    position:absolute;
+    bottom: 402px;
+    
+}
+.heading>h3{
+  font-weight: 400px;
+  font-style: normal;
+  font-weight: normal;
+    font-size: 18px;
+    width: 237px;
+    height:42px;
+    line-height: 21.33px;
+    position:absolute;
+    bottom:225px;
+
 }
 .circle
 {
@@ -40,9 +58,8 @@
   position: absolute;
   height: 536px;
   width: 642px;
-  left: 847px;
-  top: 228px;
-  border-radius:50%;
+  right: -223px;
+  bottom: 0px;
   border-top-left-radius:100%;
   border-top-right-radius:0%;
   border-bottom-right-radius:0%;
@@ -53,8 +70,8 @@ img {
   position:absolute;
   width: 350px;
   height: 564px;
-  left: 809px;
-  top: 200px;
+  right: 194px;
+  bottom:0px;
 }
 
   .button {
@@ -63,6 +80,8 @@ img {
     padding: 16px 48px;
     text-decoration: none;
     display: inline-block;
+    position:absolute;
+    bottom:100px;
     
   }
   .socialmedia
@@ -71,10 +90,10 @@ img {
       z-index: 1;
       position:absolute;
       left: 1317px;
-    bottom: 0px;
-    width: 345px;
-    height: 256px;
-    font-size: 30px;
+      bottom: 0px;
+      width: 345px;
+      height: 256px;
+      font-size: 30px;
     
 }
 
